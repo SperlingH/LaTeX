@@ -256,8 +256,10 @@
   \recomputeletterlengths%
   % sender contact info
   \hfill%
-  \begin{minipage}{.5\textwidth}%
-    \raggedleft%
+  %\begin{minipage}{.5\textwidth}%
+  \begin{minipage}{.25\textwidth}%# Position of Minipage
+    %\raggedleft%#
+	\raggedright%# Modification of the address Minipage
     \addressfont\textcolor{color2}{%
       {\bfseries\upshape\@firstname~\@lastname}\@firstdetailselementfalse%
       \ifthenelse{\isundefined{\@addressstreet}}{}{\makenewline\addresssymbol\@addressstreet%
