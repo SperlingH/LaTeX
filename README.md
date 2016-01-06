@@ -13,5 +13,6 @@ folder or equivalent and update database
   - ModerncvclassicPlain.sty	# the modified .sty file
   - template.tex				# the modified template.tex file 
   - template.pdf				# the result 
- 2016-01-05
+
+2016-01-05
 	added the \social command to the letter definition of moderncvstyleclassicPlain.sty
