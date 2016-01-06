@@ -4,7 +4,7 @@ Misc LaTeX code
 Addition of an existing package "moderncv".
 Added the modercvstyle "classicPlain"
 
-# dirty hack: copy into the 
+dirty hack: copy into the 
 	/usr/share/texlive/texmf-dist/tex/latex/moderncv
 folder or equivalent and update database
 
@@ -13,6 +13,5 @@ folder or equivalent and update database
   - ModerncvclassicPlain.sty	# the modified .sty file
   - template.tex				# the modified template.tex file 
   - template.pdf				# the result 
-
-## 2016-01-05
+ 2016-01-05
 	added the \social command to the letter definition of moderncvstyleclassicPlain.sty
