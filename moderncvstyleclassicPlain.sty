@@ -266,7 +266,7 @@
     %\raggedleft%#
 	\raggedright%# Modification of the address Minipage
     \addressfont\textcolor{color2}{%
-      {\bfseries\upshape\@firstname~\@lastname}\@firstdetailselementfalse%
+      {\bfseries\upshape\@title\makenewline\@firstname~\@lastname}\@firstdetailselementfalse% %# Titel in line above the name
       \ifthenelse{\isundefined{\@addressstreet}}{}{\makenewline\addresssymbol\@addressstreet%
         \ifthenelse{\equal{\@addresscity}{}}{}{\makenewline\@addresscity}% if \addresstreet is defined, \addresscity and addresscountry will always be defined but could be empty
         \ifthenelse{\equal{\@addresscountry}{}}{}{\makenewline\@addresscountry}}%
